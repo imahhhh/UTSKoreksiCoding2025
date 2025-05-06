@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Nama</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        form {
+            background-color: rgb(92, 156, 239);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        input[type="text"] {
+            padding: 5px;
+            margin: 5px 0;
+            width: 100%;
+        }
+        input[type="submit"] {
+            padding: 5px 10px;
+            background-color: white;
+            color: rgb(92, 156, 239);
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" method="post">
+        <label for="nama">Nama:</label><br>
+        <input type="text" id="nama" name="nama"><br>
+        <input type="submit" value="Kirim">
+    </form>
+</body>
+</html>
